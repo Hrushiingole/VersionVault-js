@@ -6,7 +6,7 @@ const GitClient=require("./git/client")
   
 const {CatFileCommand}=require("./git/commands")
 
-console.log("Logs from your program will appear here!");
+// console.log("Logs from your program will appear here!");
 const gitClient=new GitClient();
 const command = process.argv[2];
 //
